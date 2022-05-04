@@ -1,0 +1,81 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .tangram {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    background-color: #444444;
+  }
+  .container .tangram .triangle1 {
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background: #008cff;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    transition: all 2s;
+    transform: translate(-35px,101px) rotate(223deg);
+  }
+  .container .tangram .triangle2 {
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background: #e90c0c;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    transition: all 2s;
+    transform: translate(-25px,-10px) rotate(-91deg);
+   
+  }
+  .container .tangram .triangle3 {
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background: #d3c500;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+     transition: all 2s;
+     transform: translate(-2px,-155px) rotate(90deg);
+ 
+  }
+  .container .tangram .triangle4 {
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background: #211844;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+     transition: all 2s;
+     transform: translate(49px,-155px) rotate(269deg);
+    }
+  .container .tangram .triangle5 {
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background: #626467;
+    width: 143.33px;
+    height: 71.66px;
+    position: absolute;
+    transition: all 2s;
+    transform: translate(63px,14px) rotate(89deg);
+    z-index: 99;
+  }
+  .container .tangram .carre {
+    width: 70px;
+    height: 70px;
+    background: #d70ce9;
+    position: absolute;
+     transition: all 2s;
+     transform: translate(24px,-104px) rotate(224deg);
+  }
+  .container .tangram .parallelogramme {
+    clip-path: polygon(38% 0%, 98% 0%, 68% 100%, 8% 100%);
+    width: 161px;
+    height: 45px;
+    background: #42e900;
+    position: absolute;
+   transition: all 2s;
+   transform: translate(-133px,104px) rotate(228deg);
+  }

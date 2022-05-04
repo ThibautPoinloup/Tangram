@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttons button {
+    border: 0;
+    cursor: pointer;
+    padding: 30px;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .buttons button:hover {
+    background-color: #f74646;
+    color: #fff;
+  }

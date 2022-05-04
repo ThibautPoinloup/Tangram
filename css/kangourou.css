@@ -1,0 +1,81 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .tangram {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    background-color: #444444;
+  }
+  .container .tangram .triangle1 {
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background: #008cff;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    transform:translate(-70px,74px) rotate(-45deg);
+    transition: all 2s;
+   
+  }
+  .container .tangram .triangle2 {
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background: #e90c0c;
+    width: 200px;
+    height: 100px;
+    transform: rotate(135deg);
+    position: absolute;
+    transition: all 2s;
+  }
+  .container .tangram .triangle3 {
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background: #d3c500;
+    width: 100px;
+    height: 50px;
+    transform:translate(64px,37px) rotate(90deg);
+    position: absolute;
+    transition: all 2s;
+  }
+  .container .tangram .triangle4 {
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background: #211844;
+    width: 100px;
+    height: 50px;
+    transform:translate(56px,-103px) rotate(-135deg);
+    position: absolute;
+    transition: all 2s;
+  }
+  .container .tangram .triangle5 {
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background: #9fb1d4;
+    width: 143.33px;
+    height: 71.66px;
+    position: absolute;
+    transform:translate(-86px,204px) rotate(0deg);
+    transition: all 2s;
+  }
+  .container .tangram .carre {
+    width: 70px;
+    height: 70px;
+    background: #d70ce9;
+    position: absolute;
+    transform:translate(-34px,165px) rotate(45deg);
+    transition: all 2s;
+  }
+  .container .tangram .parallelogramme {
+    clip-path: polygon(38% 0%, 98% 0%, 68% 100%, 8% 100%);
+    width: 161px;
+    height: 45px;
+    background: #42e900;
+    position: absolute;
+    transform:translate(-186px,217px) rotate(180deg);
+    transition: all 2s;
+
+  }
+  
