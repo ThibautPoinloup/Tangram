@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
   }
+  .dark {
+    background-color: #222;
+    color: #e6e6e6;
+  }
+  .white button{
+    background-color: rgb(233, 21, 21);
+    color: white
+  }
   .buttons {
     width: 100%;
     display: flex;

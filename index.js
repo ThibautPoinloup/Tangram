@@ -3,25 +3,21 @@ function toggleTheme(value) {
     sheets[0].href = value;
 }
 
+let toggle_btn = document.getElementById('darkMode');
+let body = document.getElementsByTagName('body')[0];
+let darkMode = 'dark';
+let buttonWhite = document.getElementById('buttons')
 
-// Implement drag and drop for the image
-$('.triangle1').on('mousedown', function(e) {
-    var $this = $(this),
-        $window = $(window),
-        mouseX = e.pageX,
-        mouseY = e.pageY,
-        width = $this.outerWidth(),
-        height = $this.outerHeight()
-        elemX = $this.offset().left + width - mouseX,
-        elemY = $this.offset().top + height - mouseY;
+toggle_btn.addEventListener('click', function() {
 
-    e.preventDefault();
-    $window.on('mousemove.drag', function(e2) {
-        $this.offset({
-            left: e2.pageX + elemX - width,
-            top: e2.pageY + elemY - height
-        });
-    }).one('mouseup', function() {
-        $window.off('mousemove.drag');
-    });
-});
+    if (body.classList.contains("dark")+buttonWhite.classList.contains("white")){
+
+    body.classList.remove("dark")+buttonWhite.classList.remove("white");
+    }
+
+    else {
+
+    body.classList.add("dark")+buttonWhite.classList.add("white");;
+    }
+})
+

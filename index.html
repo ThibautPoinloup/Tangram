@@ -9,9 +9,8 @@
     <title>Tangram</title>
 </head>
 <body>
-    
     <!--LES BOUTONS-->
-    <div class="buttons">
+    <div class="buttons" id="buttons">
         <button onclick="toggleTheme('./css/desordre.css')">desordre</button>
         <button onclick="toggleTheme('./css/carre.css')">carre</button>
         <button onclick="toggleTheme('./css/chien.css')">chien</button>
@@ -21,12 +20,15 @@
         <button onclick="toggleTheme('./css/chat.css')">chat</button>
         <button onclick="toggleTheme('./css/kangourou.css')">kangourou</button>
         <button onclick="toggleTheme('./css/dauphin.css')">dauphin</button>
+        <button id="darkMode">Switch mode</button>
+        <button id="changeColor">change color form</button>
+
     </div>
     <!--LES SYMBOLES-->
     <div class="container">
         <div class="tangram">
             <div class="triangle1"></div>
-            <div class="triangle2" ></div>
+            <div class="triangle2"></div>
             <div class="triangle3"></div>
             <div class="triangle4"></div>
             <div class="triangle5"></div>
