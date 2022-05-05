@@ -5,7 +5,10 @@
   width: 200px;
   height: 100px;
   transform: translate(0, -130px)  rotate(-95deg);
-  transition: all 2s;
+  /* transition: all 2s; */
+  cursor: move;
+  position: absolute;
+  user-select: none;
 }
 .container .tangram .triangle2 {
   clip-path: polygon(50% 0, 100% 100%, 0 100%);
@@ -14,7 +17,10 @@
   height: 100px;
   transform:translate(10px,150px) rotate(-37deg);
   position: absolute;
-  transition: all 2s;
+  /* transition: all 2s; */
+  cursor: move;
+  position: absolute;
+  user-select: none;
 }
 .container .tangram .triangle3 {
   clip-path: polygon(50% 0, 100% 100%, 0 100%);
@@ -23,7 +29,10 @@
   height: 50px;
   transform:translate(80px,-80px) rotate(320deg);
   position: absolute;
-  transition: all 2s;
+  /* transition: all 2s; */
+  cursor: move;
+  position: absolute;
+  user-select: none;
 }
 .container .tangram .triangle4 {
   clip-path: polygon(50% 0, 100% 100%, 0 100%);
@@ -32,7 +41,10 @@
   height: 50px;
   transform:translate(-80px,30px) rotate(60deg);
   position: absolute;
-  transition: all 2s;
+  /* transition: all 2s; */
+  cursor: move;
+  position: absolute;
+  user-select: none;
 }
 .container .tangram .triangle5 {
   clip-path: polygon(50% 0, 100% 100%, 0 100%);
@@ -41,7 +53,10 @@
   height: 71.66px;
   position: absolute;
   transform:translate(-40px,-105px) rotate(-150deg);
-  transition: all 2s;
+  /* transition: all 2s; */
+  cursor: move;
+  position: absolute;
+  user-select: none;
 }
 .container .tangram .carre {
   width: 70px;
@@ -51,7 +66,10 @@
   left: 201px;
   bottom: 80px;
   transform:translate(80px,-100px) rotate(68deg);
-  transition: all 2s;
+  /* transition: all 2s; */
+  cursor: move;
+  position: absolute;
+  user-select: none;
 }
 .container .tangram .parallelogramme {
   clip-path: polygon(38% 0%, 98% 0%, 68% 100%, 8% 100%);
@@ -62,5 +80,8 @@
   top: 400px;
   right: 190px;
   transform:translate(-155px,100px) rotate(34deg);
-  transition: all 2s;
+  /* transition: all 2s; */
+  cursor: move;
+  position: absolute;
+  user-select: none;
 }
