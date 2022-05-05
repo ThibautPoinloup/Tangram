@@ -4,7 +4,7 @@
   background: #008cff;
   width: 200px;
   height: 100px;
-  transform: translate(0, -130px)  rotate(-95deg);
+  transform: translate(0, -170px)  rotate(-165deg);
   /* transition: all 2s; */
   cursor: move;
   position: absolute;
@@ -27,7 +27,7 @@
   background: #d3c500;
   width: 100px;
   height: 50px;
-  transform:translate(80px,-80px) rotate(320deg);
+  transform:translate(150px,-0px) rotate(320deg);
   position: absolute;
   /* transition: all 2s; */
   cursor: move;
@@ -52,7 +52,7 @@
   width: 143.33px;
   height: 71.66px;
   position: absolute;
-  transform:translate(-40px,-105px) rotate(-150deg);
+  transform:translate(-180px,-80px) rotate(-150deg);
   /* transition: all 2s; */
   cursor: move;
   position: absolute;
@@ -63,8 +63,6 @@
   height: 70px;
   background: #d70ce9;
   position: absolute;
-  left: 201px;
-  bottom: 80px;
   transform:translate(80px,-100px) rotate(68deg);
   /* transition: all 2s; */
   cursor: move;
@@ -77,8 +75,6 @@
   height: 45px;
   background: #42e900;
   position: absolute;
-  top: 400px;
-  right: 190px;
   transform:translate(-155px,100px) rotate(34deg);
   /* transition: all 2s; */
   cursor: move;
