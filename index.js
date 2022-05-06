@@ -26,7 +26,7 @@ toggle_btn.addEventListener('click', function() {
 // The current position of mouse
 let x = 0;
 let y = 0;
-let swap = document.getElementById('dragMe');  
+let swap = document.getElementById('dragMe1');  
 // Query the element
 let ele = document.getElementById('dragMe1');
 
