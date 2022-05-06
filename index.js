@@ -1,8 +1,8 @@
 function toggleTheme(value) {
     const sheets = document.getElementsByTagName('link');
     sheets[0].href = value;
+	
 }
-
 let toggle_btn = document.getElementById('darkMode');
 let body = document.getElementsByTagName('body')[0];
 let darkMode = 'dark';
@@ -19,6 +19,7 @@ toggle_btn.addEventListener('click', function() {
 
     body.classList.add("dark")+buttonWhite.classList.add("white");;
     }
+
 })
 
 
@@ -62,6 +63,8 @@ toggle_btn.addEventListener('click', function() {
         
         document.addEventListener('mouseup', stopDrag);
         document.addEventListener('mousemove', moveAlong);
+       
+
     }
     
     // Now that all the variables and functions are created,
@@ -70,5 +73,9 @@ toggle_btn.addEventListener('click', function() {
     // on those elements:
     for (i = 0; i < draggableCount; i += 1) {
         drag[i].addEventListener('mousedown', startDrag);
+        
     }
-}(document));
+}
+(document));
+
+
