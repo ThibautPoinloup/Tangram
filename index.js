@@ -30,8 +30,8 @@ toggle_btn.addEventListener('click', function() {
     'use strict';
     
     // Obtain a node list of all elements that have class="draggable":
-    var draggable = document.getElementsByClassName('draggable'),
-        draggableCount = draggable.length, // cache the length
+    let drag = document.getElementsByClassName('draggable'),
+        draggableCount = drag.length, // cache the length
         i; // iterator placeholder
     
     // This function initializes the drag of an element where an
@@ -41,7 +41,7 @@ toggle_btn.addEventListener('click', function() {
         // The element's position is based on its top left corner,
         // but the mouse coordinates are inside of it, so we need
         // to calculate the positioning difference:
-        var diffX = evt.clientX - this.offsetLeft,
+        const diffX = evt.clientX - this.offsetLeft,
             diffY = evt.clientY - this.offsetTop,
             that = this; // "this" refers to the current element,
                          // let's keep it in cache for later use.
@@ -69,6 +69,6 @@ toggle_btn.addEventListener('click', function() {
     // a "startDrag" function to a "mousedown" event that occurs
     // on those elements:
     for (i = 0; i < draggableCount; i += 1) {
-        draggable[i].addEventListener('mousedown', startDrag);
+        drag[i].addEventListener('mousedown', startDrag);
     }
 }(document));

@@ -6,10 +6,12 @@
   .dark {
     background-color: #222;
     color: #e6e6e6;
+
   }
   .white button{
     background-color: rgb(247, 245, 245);
-    color: rgb(11, 10, 10)
+    color: rgb(11, 10, 10);
+
   }
   .buttons {
     width: 100%;
@@ -28,11 +30,15 @@
     text-transform: uppercase;
     font-weight: 600;
     width: 200px;
+    border-radius: 50px;
+    box-shadow : 2px 5px 0.5em 0.1em black;
   }
   .buttons button:hover {
     background-color: #f74646;
     color: #fff;
     border-radius: 50px;
+    box-shadow : 2px .5px 0.5em 0.2em yellow;
+
   }
 
   .container {
@@ -43,6 +49,11 @@
     align-items: center;
     background-color: #444444;
     margin: auto;
+    border-radius: 40px;
+    border: 3px solid red;
+    box-shadow : 5px 10px 0.5em 0.5em rgb(90, 47, 220);
+
+
   }
   .container .tangram {
     position: absolute;

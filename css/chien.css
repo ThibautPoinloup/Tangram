@@ -4,7 +4,7 @@
   background: #008cff;
   width: 200px;
   height: 100px;
-  transform: rotate(-45deg), translate(270px, 96);
+ 
   transition: all 2s;
   transform: translate(-107px, -15px) rotate(315deg);
   position: absolute;
@@ -15,7 +15,6 @@
   background: #e90c0c;
   width: 200px;
   height: 100px;
-  transform: rotate(135deg), translate(248px, 140px);
   transition: all 2s;
   transform: translate(25px, -5px) rotate(135deg);
   position: absolute;
