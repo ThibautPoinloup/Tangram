@@ -21,16 +21,18 @@ toggle_btn.addEventListener('click', function() {
     }
 })
 
+
+// -------------------------------------------------
 // The current position of mouse
 let x = 0;
 let y = 0;
 let swap = document.getElementById('dragMe');  
 // Query the element
-const ele = document.getElementById('dragMe');
+let ele = document.getElementById('dragMe1');
 
 // Handle the mousedown event
 // that's triggered when user drags the element
-const mouseDownHandler = function (e) {
+let mouseDownHandler = function (e) {
     // Get the current mouse position
     x = e.clientX;
     y = e.clientY;
@@ -39,10 +41,10 @@ const mouseDownHandler = function (e) {
     document.addEventListener('mouseup', mouseUpHandler);
 };
 
-const mouseMoveHandler = function (e) {
+let mouseMoveHandler = function (e) {
     // How far the mouse has been moved
-    const dx = e.clientX - x;
-    const dy = e.clientY - y;
+    let dx = e.clientX - x;
+    let dy = e.clientY - y;
 
     // Set the position of element
     ele.style.top = `${ele.offsetTop + dy}px`;
@@ -53,7 +55,7 @@ const mouseMoveHandler = function (e) {
     y = e.clientY;
 };
 
-const mouseUpHandler = function () {
+let mouseUpHandler = function () {
     // Remove the handlers of `mousemove` and `mouseup`
     document.removeEventListener('mousemove', mouseMoveHandler);
     document.removeEventListener('mouseup', mouseUpHandler);
