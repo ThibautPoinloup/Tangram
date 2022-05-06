@@ -4,9 +4,9 @@
   background: #008cff;
   width: 200px;
   height: 100px;
-  transform: translate(0, 50px);
   transform: translate(-0px, 49px) rotate(360deg);
-    transition: all 2s;
+  transition: all 2s;
+  position: absolute;
 }
 .container .tangram .triangle2 {
   clip-path: polygon(50% 0, 100% 100%, 0 100%);
@@ -24,7 +24,7 @@
   height: 50px;
   position: absolute;
   transform: translate(-75px, 49px) rotate(90deg);
-    transition: all 2s;
+  transition: all 2s;
 }
 .container .tangram .triangle4 {
   clip-path: polygon(50% 0, 100% 100%, 0 100%);
@@ -33,7 +33,7 @@
   height: 50px;
   position: absolute;
   transform: translate(-0px, -27px) rotate(180deg);
-      transition: all 2s;
+  transition: all 2s;
 }
 .container .tangram .triangle5 {
   clip-path: polygon(50% 0, 100% 100%, 0 100%);
@@ -41,8 +41,8 @@
   width: 143.33px;
   height: 71.66px;
   position: absolute;
-  transform: translate(-74px, -75px) rotate(-44deg);
-      transition: all 2s;
+  transform: translate(-73px, -75px) rotate(-44deg);
+  transition: all 2s;
 }
 .container .tangram .carre {
   width: 70px;
@@ -50,7 +50,7 @@
   background: #d70ce9;
   position: absolute;
   transform: translate(-49px, -0px) rotate(45deg);
-      transition: all 2s;
+  transition: all 2s;
 }
 .container .tangram .parallelogramme {
   clip-path: polygon(38% 0%, 98% 0%, 68% 100%, 8% 100%);
@@ -58,6 +58,6 @@
   height: 45px;
   background: #42e900;
   position: absolute;
-  transform: translate(23px, -76px) rotate(-1deg);
-      transition: all 2s;
+  transform: translate(21px, -77px) rotate(-1deg);
+  transition: all 2s;
 }
